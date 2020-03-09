@@ -23,9 +23,9 @@ client.on('message', message => {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`**🎵   ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'sets')) {
+  if (message.content.startsWith(adminprefix + 'pn')) {
     client.user.setGame(argresult, "https://www.twitch.tv/nayquila");
-      message.channel.send(`**💜**`)
+      message.channel.send(`**You Are Now Streaming**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
