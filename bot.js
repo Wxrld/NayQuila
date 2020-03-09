@@ -25,7 +25,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/nayquila");
-      message.channel.send(`**Streaming Mode Activated [ :HoVerified: ]**`)
+      message.channel.send(`**Streaming Mode Activated [ :space_invader: ]**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
